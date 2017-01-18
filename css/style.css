@@ -71,53 +71,58 @@ img{
 /******************
   Footer
 ******************/
+.icon {
+  text-align: center;
+  padding: 10px;
+}
 
 footer i{
-  color: #fff;
-  font-weight: lighter;
-  background: #696969;
-  padding: 4px;
+    color: #fff;
+    background: #696969;
+    padding: 4px;
+    text-align: center;
 }
 
 .searchform div {
-height: 26px;
-width: 193px;
+    height: 26px;
+    width: 193px;
 }
 
 .searchboxwrapper {
-position: relative;
+    position: relative;
+    margin: auto;
 }
 
 .searchbox {
-border-left: 1px solid #dadada;
-border-top: 1px solid #dadada;
-border-right: 0px;
-border-bottom: 1px solid #dadada;
-outline: none;
-font: 11px 'Montserrat', sans-serif;
-color: #777;
-width: 182px;
-height: 26px;
-background: #fff;
-padding-left: 10px;
+    border-left: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    border-right: 0px;
+    border-bottom: 1px solid #dadada;
+    outline: none;
+    font: 11px 'Montserrat', sans-serif;
+    color: #777;
+    width: 182px;
+    height: 26px;
+    background: #fff;
+    padding-left: 10px;
 }
 
 .searchsubmit {
-font-family: 'FontAwesome';
-width: 29px;
-height: 26px;
-border-left: 0px;
-border-top: 1px solid #dadada;
-border-right: 1px solid #dadada;
-border-bottom: 1px solid #dadada;
-font-size: 12px;
-position: absolute;
-top: 0;
-right: 0;
-background: #fff;
-border: 1px solid #dadada;
-color: #5d3250;
-cursor: hand; cursor: pointer;
+    font-family: 'FontAwesome';
+    width: 29px;
+    height: 26px;
+    border-left: 0px;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #dadada;
+    color: #5d3250;
+    cursor: hand; cursor: pointer;
 }
 
 /******************
@@ -128,7 +133,20 @@ Media Screen
         width: 33.3333%;
       }
 
+      .header div{
+        display: inline-block;
+      }
+
+      div .menu {
+        border-right: 2px solid #dadada;
+      }
+
+
 	}
+
+  footer {
+
+  }
 
   @media screen and (min-width: 992px){
     .image-stack div {
