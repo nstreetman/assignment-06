@@ -1,10 +1,137 @@
+/**************
+General
+***************/
+
 * {
     box-sizing: border-box
 }
 
+body {
+	font-family: sans-serif;
+
+ }
+ .column-container{
+   font-size: 0;
+ }
+
+ .column-container > * {
+  	display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+  }
 img{
-   width: 100%;
-   display: block;
+  width: 100%;
+}
+  /******************
+  Header area
+  ******************/
+
+  .logo img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+  }
+
+  .menus a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #C0C0C0;
+  }
+
+  a:visited {
+    color: #C0C0C0;
+  }
+
+  a:hover {
+    color:#696969;
+  }
+
+  /******************
+  Images
+  ******************/
+
+  .image-stack div {
+    display: inline-block;;
+    padding: 0px;
+    width: 50%;
+  }
+
+  .column-container img{
+    font-size: 0;
+    padding: 0;
+  }
+
+/******************
+  Footer
+******************/
+
+footer i{
+  color: #fff;
+  font-weight: lighter;
+  background: #696969;
+  padding: 4px;
 }
 
-.navbar
+.searchform div {
+height: 26px;
+width: 193px;
+}
+
+.searchboxwrapper {
+position: relative;
+}
+
+.searchbox {
+border-left: 1px solid #dadada;
+border-top: 1px solid #dadada;
+border-right: 0px;
+border-bottom: 1px solid #dadada;
+outline: none;
+font: 11px 'Montserrat', sans-serif;
+color: #777;
+width: 182px;
+height: 26px;
+background: #fff;
+padding-left: 10px;
+}
+
+.searchsubmit {
+font-family: 'FontAwesome';
+width: 29px;
+height: 26px;
+border-left: 0px;
+border-top: 1px solid #dadada;
+border-right: 1px solid #dadada;
+border-bottom: 1px solid #dadada;
+font-size: 12px;
+position: absolute;
+top: 0;
+right: 0;
+background: #fff;
+border: 1px solid #dadada;
+color: #5d3250;
+cursor: hand; cursor: pointer;
+}
+
+/******************
+Media Screen
+******************/
+  @media screen and (min-width: 768px){
+      .image-stack div {
+        width: 33.3333%;
+      }
+
+	}
+
+  @media screen and (min-width: 992px){
+    .image-stack div {
+      width: 25%;
+    }
+  }
