@@ -58,12 +58,12 @@ img{
   ******************/
 
   .image-stack div {
-    display: inline-block;;
+    display: inline-block;
     padding: 0px;
     width: 50%;
   }
 
-  .column-container img{
+  .column-container img {
     font-size: 0;
     padding: 0;
   }
@@ -137,16 +137,27 @@ Media Screen
         display: inline-block;
       }
 
-      div .menu {
-        border-right: 2px solid #dadada;
+      .logo img {
+        display: block;
+        max-width: 250px;
+        margin-left: 0;
       }
 
+      .logo {
+        width:50%;
+        align-items: baseline;
+      }
+
+      .nav-container {
+        display: inline-block;
+      }
+
+      footer div{
+        display: inline-block;
+      }
 
 	}
 
-  footer {
-
-  }
 
   @media screen and (min-width: 992px){
     .image-stack div {
