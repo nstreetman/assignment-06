@@ -157,29 +157,41 @@ Media Screen
         border-left: 1px #D2CFCE solid;
       }
 
-      .column-container-footer{
-        background-color: rgba(255, 255, 255, 0.3);
+      #searchform {
         position: relative;
-        width: 100%;
+        width: 33.33%;
         padding: 25px;
-        top:-45px;
+        top:-60px;
       }
 
       .column-container-footer div{
         display: inline-block;
       }
 
-      .column-container-footer icon {
-        float: center;
+      .column-container-footer .icon {
+        background-color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        width: 66.67%;
+        right:-300px;
       }
+
 
 
 
 	}
 
-
   @media screen and (min-width: 992px){
     .image-stack div {
       width: 25%;
     }
+    .column-container-footer i {
+      display: none;
+    }
+    #searchform {
+      position: relative;
+      width: 25%;
+      padding: 25px;
+      top:-35px;
+    }
+
   }
